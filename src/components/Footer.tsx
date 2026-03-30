@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <img src={logo} alt="Alex Iphones Supplier" className="w-10 h-10 object-contain" />
+              <img src={logo} alt="SK Iphones Supplier" className="w-10 h-10 object-contain" />
               <div>
                 <h3 className="text-lg font-black leading-none">
-                  <span className="text-gradient-gold">Alexiphones</span>
+                  <span className="text-gradient-gold">SK Iphones</span>
                 </h3>
                 <p className="text-[10px] text-muted-foreground tracking-wider uppercase">Premium iPhones in South Africa</p>
               </div>
@@ -36,12 +36,12 @@ const Footer = () => {
           <div>
             <h4 className="text-foreground font-bold mb-4 text-xs uppercase tracking-[0.2em]">Contact</h4>
             <div className="space-y-3 text-muted-foreground text-sm">
-              <a href="mailto:info@alexiphones.co.za" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="mailto:info@skiphones.co.za" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <svg className="h-4 w-4 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                   <polyline points="22,6 12,13 2,6"/>
                 </svg>
-                <span>info@alexiphones.co.za</span>
+                <span>info@skiphones.co.za</span>
               </a>
               <a href="tel:0606945132" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 text-primary" />
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="border-t border-border/40 mt-10 pt-6 text-center">
           <p className="text-muted-foreground text-xs">
-            &copy; 2026 Alexiphones | Premium iPhones in South Africa
+            &copy; 2026 SK Iphones | Premium iPhones in South Africa
           </p>
         </div>
       </div>
