@@ -4,7 +4,7 @@ import logo from "@/assets/logo.png";
 
 const Header = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/27606945132", "_blank");
+    window.open("https://wa.me/27782463563", "_blank");
   };
 
   return (
