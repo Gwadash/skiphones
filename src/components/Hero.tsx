@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
       
       <div className="container mx-auto px-4 text-center relative z-10">
-        <img src={logo} alt="SK Iphones Supplier" className="w-28 h-28 md:w-36 md:h-36 mx-auto mb-6 object-contain drop-shadow-2xl" />
+        
         
         <div className="inline-flex items-center gap-2 mb-6 px-5 py-2.5 border border-primary/20 rounded-full bg-primary/5 backdrop-blur-sm">
           <Star className="h-3.5 w-3.5 text-primary fill-primary" />
