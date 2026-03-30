@@ -25,7 +25,7 @@ const Footer = () => {
               Your trusted source for brand new and pre-owned iPhones in South Africa. Quality Apple devices at competitive prices.
             </p>
             <Button 
-              onClick={() => window.open("https://wa.me/27606945132", "_blank")}
+              onClick={() => window.open("https://wa.me/27782463563", "_blank")}
               className="bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold shadow-md"
             >
               <MessageCircle className="h-4 w-4 mr-2" />
@@ -43,11 +43,11 @@ const Footer = () => {
                 </svg>
                 <span>info@skiphones.co.za</span>
               </a>
-              <a href="tel:0606945132" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="tel:0782463563" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>060 694 5132</span>
+                <span>078 246 3563</span>
               </a>
-              <a href="https://wa.me/27606945132" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="https://wa.me/27782463563" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <MessageCircle className="h-4 w-4 text-primary" />
                 <span>WhatsApp Available</span>
               </a>
