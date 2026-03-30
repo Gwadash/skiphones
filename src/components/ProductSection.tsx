@@ -15,7 +15,7 @@ const ProductSection = () => {
             <span className="text-primary text-xs font-semibold tracking-widest uppercase">Price List</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-black text-foreground mb-4">
-            2026 <span className="text-gradient-gold">iPhone</span> Collection
+            <span className="text-gradient-gold">iPhone</span> Collection
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto">
             Choose from our premium selection. All phones tested & verified.
