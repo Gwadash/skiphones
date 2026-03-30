@@ -47,7 +47,7 @@ const Footer = () => {
                 <Phone className="h-4 w-4 text-primary" />
                 <span>078 246 3563</span>
               </a>
-              <a href="https://wa.me/27606945132" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="https://wa.me/27782463563" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <MessageCircle className="h-4 w-4 text-primary" />
                 <span>WhatsApp Available</span>
               </a>
