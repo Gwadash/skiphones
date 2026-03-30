@@ -41,7 +41,7 @@ const DeliveryInfo = () => {
               078 246 3563
             </a>
             <span className="hidden sm:block text-primary-foreground/40">|</span>
-            <a href="https://wa.me/27606945132" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground font-bold text-lg hover:opacity-80 transition-opacity">
+            <a href="https://wa.me/27782463563" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground font-bold text-lg hover:opacity-80 transition-opacity">
               <MessageCircle className="h-5 w-5" />
               WhatsApp Us
             </a>
