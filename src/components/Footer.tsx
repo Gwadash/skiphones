@@ -25,7 +25,7 @@ const Footer = () => {
               Your trusted source for brand new and pre-owned iPhones in South Africa. Quality Apple devices at competitive prices.
             </p>
             <Button 
-              onClick={() => window.open("https://wa.me/27606945132", "_blank")}
+              onClick={() => window.open("https://wa.me/27782463563", "_blank")}
               className="bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold shadow-md"
             >
               <MessageCircle className="h-4 w-4 mr-2" />
