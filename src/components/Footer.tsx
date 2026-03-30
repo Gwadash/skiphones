@@ -43,9 +43,9 @@ const Footer = () => {
                 </svg>
                 <span>info@skiphones.co.za</span>
               </a>
-              <a href="tel:0606945132" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="tel:0782463563" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>060 694 5132</span>
+                <span>078 246 3563</span>
               </a>
               <a href="https://wa.me/27606945132" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <MessageCircle className="h-4 w-4 text-primary" />
