@@ -16,8 +16,15 @@ interface ProductCardProps {
 
 const ProductCard = ({ model, price, condition, image }: ProductCardProps) => {
   const [loading, setLoading] = useState(false);
+  const { user } = useAuth();
+  const navigate = useNavigate();
 
   const handleOrder = async () => {
+    if (!user) {
+      toast.info("Please sign in or create an account first.");
+      navigate("/auth");
+      return;
+    }
     setLoading(true);
     try {
       const referralCode = getReferralCode();
