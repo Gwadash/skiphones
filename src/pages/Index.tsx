@@ -7,6 +7,7 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { useReferralCapture } from "@/hooks/useReferral";
 
 const Index = () => {
+  useReferralCapture();
   return (
     <div className="min-h-screen">
       <Header />
