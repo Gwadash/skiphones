@@ -3,6 +3,7 @@ import { CreditCard, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { getReferralCode, clearReferralCode } from "@/hooks/useReferral";
 
 interface ProductCardProps {
   model: string;
