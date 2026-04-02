@@ -115,6 +115,78 @@ export type Database = {
         }
         Relationships: []
       }
+      referral_codes: {
+        Row: {
+          code: string
+          created_at: string
+          id: string
+          user_id: string
+        }
+        Insert: {
+          code: string
+          created_at?: string
+          id?: string
+          user_id: string
+        }
+        Update: {
+          code?: string
+          created_at?: string
+          id?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      referrals: {
+        Row: {
+          commission_amount: number
+          created_at: string
+          eligible_at: string | null
+          id: string
+          order_id: string | null
+          referred_user_id: string
+          referrer_id: string
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          commission_amount?: number
+          created_at?: string
+          eligible_at?: string | null
+          id?: string
+          order_id?: string | null
+          referred_user_id: string
+          referrer_id: string
+          status?: string
+          updated_at?: string
+        }
+        Update: {
+          commission_amount?: number
+          created_at?: string
+          eligible_at?: string | null
+          id?: string
+          order_id?: string | null
+          referred_user_id?: string
+          referrer_id?: string
+          status?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "referrals_order_id_fkey"
+            columns: ["order_id"]
+            isOneToOne: false
+            referencedRelation: "orders"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "referrals_referrer_id_fkey"
+            columns: ["referrer_id"]
+            isOneToOne: false
+            referencedRelation: "referral_codes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never
