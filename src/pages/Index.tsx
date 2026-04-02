@@ -4,6 +4,7 @@ import ProductSection from "@/components/ProductSection";
 import DeliveryInfo from "@/components/DeliveryInfo";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import { useReferralCapture } from "@/hooks/useReferral";
 
 const Index = () => {
   return (
