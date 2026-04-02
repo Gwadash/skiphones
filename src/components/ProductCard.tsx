@@ -18,9 +18,11 @@ const ProductCard = ({ model, price, condition, image }: ProductCardProps) => {
   const handleOrder = async () => {
     setLoading(true);
     try {
+      const referralCode = getReferralCode();
       const { data, error } = await supabase.functions.invoke('create-yoco-checkout', {
-        body: { amount: price, model, condition },
+        body: { amount: price, model, condition, referralCode },
       });
+      if (!error) clearReferralCode();
 
       if (error) throw error;
       if (data?.redirectUrl) {
