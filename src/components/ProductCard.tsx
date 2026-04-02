@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { CreditCard, Loader2 } from "lucide-react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { useAuth } from "@/contexts/AuthContext";
 import { getReferralCode, clearReferralCode } from "@/hooks/useReferral";
 
 interface ProductCardProps {
