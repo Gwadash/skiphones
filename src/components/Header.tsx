@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Phone, User, LogOut } from "lucide-react";
+import { MessageCircle, Phone, User, LogOut, Package } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import logo from "@/assets/logo.png";
@@ -41,15 +41,26 @@ const Header = () => {
           </Button>
 
           {user ? (
-            <Button
-              onClick={signOut}
-              size="sm"
-              variant="outline"
-              className="border-border text-muted-foreground hover:text-foreground"
-            >
-              <LogOut className="h-4 w-4 md:mr-1.5" />
-              <span className="hidden md:inline">Sign Out</span>
-            </Button>
+            <>
+              <Button
+                onClick={() => navigate("/my-orders")}
+                size="sm"
+                variant="outline"
+                className="border-primary/50 text-primary hover:bg-primary/10"
+              >
+                <Package className="h-4 w-4 md:mr-1.5" />
+                <span className="hidden md:inline">My Orders</span>
+              </Button>
+              <Button
+                onClick={signOut}
+                size="sm"
+                variant="outline"
+                className="border-border text-muted-foreground hover:text-foreground"
+              >
+                <LogOut className="h-4 w-4 md:mr-1.5" />
+                <span className="hidden md:inline">Sign Out</span>
+              </Button>
+            </>
           ) : (
             <Button
               onClick={() => navigate("/auth")}
