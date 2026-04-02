@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Phone, User, LogOut, Package } from "lucide-react";
+import { MessageCircle, Phone, User, LogOut, Package, Share2 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import logo from "@/assets/logo.png";
