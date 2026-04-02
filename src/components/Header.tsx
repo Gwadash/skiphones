@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Phone, User, LogOut, Package } from "lucide-react";
+import { MessageCircle, Phone, User, LogOut, Package, Share2 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import logo from "@/assets/logo.png";
@@ -42,6 +42,15 @@ const Header = () => {
 
           {user ? (
             <>
+              <Button
+                onClick={() => navigate("/referrals")}
+                size="sm"
+                variant="outline"
+                className="border-primary/50 text-primary hover:bg-primary/10"
+              >
+                <Share2 className="h-4 w-4 md:mr-1.5" />
+                <span className="hidden md:inline">Refer & Earn</span>
+              </Button>
               <Button
                 onClick={() => navigate("/my-orders")}
                 size="sm"
