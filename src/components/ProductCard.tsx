@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { CreditCard, Loader2 } from "lucide-react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { useAuth } from "@/contexts/AuthContext";
 import { getReferralCode, clearReferralCode } from "@/hooks/useReferral";
 
 interface ProductCardProps {
@@ -14,8 +16,15 @@ interface ProductCardProps {
 
 const ProductCard = ({ model, price, condition, image }: ProductCardProps) => {
   const [loading, setLoading] = useState(false);
+  const { user } = useAuth();
+  const navigate = useNavigate();
 
   const handleOrder = async () => {
+    if (!user) {
+      toast.info("Please sign in or create an account first.");
+      navigate("/auth");
+      return;
+    }
     setLoading(true);
     try {
       const referralCode = getReferralCode();
