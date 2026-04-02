@@ -1,8 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Phone } from "lucide-react";
+import { MessageCircle, Phone, User, LogOut } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const Header = () => {
+  const { user, signOut } = useAuth();
+  const navigate = useNavigate();
+
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/27782463563", "_blank");
   };
@@ -34,6 +39,28 @@ const Header = () => {
             <MessageCircle className="h-4 w-4 md:mr-1.5" />
             <span className="hidden md:inline">WhatsApp</span>
           </Button>
+
+          {user ? (
+            <Button
+              onClick={signOut}
+              size="sm"
+              variant="outline"
+              className="border-border text-muted-foreground hover:text-foreground"
+            >
+              <LogOut className="h-4 w-4 md:mr-1.5" />
+              <span className="hidden md:inline">Sign Out</span>
+            </Button>
+          ) : (
+            <Button
+              onClick={() => navigate("/auth")}
+              size="sm"
+              variant="outline"
+              className="border-primary/50 text-primary hover:bg-primary/10"
+            >
+              <User className="h-4 w-4 md:mr-1.5" />
+              <span className="hidden md:inline">Sign In</span>
+            </Button>
+          )}
         </div>
       </div>
     </header>
