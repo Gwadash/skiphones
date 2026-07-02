@@ -21,7 +21,7 @@ export const brandNewProducts: Product[] = [
   { id: "bn12", model: "iPhone 15 Pro Max", price: 13700, condition: "brand-new", image: "/lovable-uploads/bc14a16d-e0dd-426f-84b0-2f1a4fe4f0e4.png" },
   { id: "bn13", model: "iPhone 16", price: 14300, condition: "brand-new", image: "/__l5e/assets-v1/3a39dfd9-3644-4252-b176-dcc66b9c3083/iphone-16.png" },
   { id: "bn14", model: "iPhone 17", price: 15000, condition: "brand-new", image: "/__l5e/assets-v1/d85ed835-3874-4ef6-b804-6c5abe003a3e/iphone-17.png" },
-  { id: "bn15", model: "iPhone 17 Pro", price: 18200, condition: "brand-new" },
+  { id: "bn15", model: "iPhone 17 Pro", price: 18200, condition: "brand-new", image: "/__l5e/assets-v1/6de03824-1cd0-4853-bce1-b561bc91b8b3/iphone-17-pro.png" },
   { id: "bn16", model: "iPhone 17 Pro Max", price: 23000, condition: "brand-new" },
 ];
 
