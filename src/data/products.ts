@@ -40,6 +40,6 @@ export const preOwnedProducts: Product[] = [
   { id: "po12", model: "iPhone 15 Pro Max", price: 12000, condition: "pre-owned", image: "/lovable-uploads/bc14a16d-e0dd-426f-84b0-2f1a4fe4f0e4.png" },
   { id: "po13", model: "iPhone 16", price: 12300, condition: "pre-owned", image: "/__l5e/assets-v1/3a39dfd9-3644-4252-b176-dcc66b9c3083/iphone-16.png" },
   { id: "po14", model: "iPhone 17", price: 14700, condition: "pre-owned", image: "/__l5e/assets-v1/d85ed835-3874-4ef6-b804-6c5abe003a3e/iphone-17.png" },
-  { id: "po15", model: "iPhone 17 Pro", price: 15200, condition: "pre-owned" },
+  { id: "po15", model: "iPhone 17 Pro", price: 15200, condition: "pre-owned", image: "/__l5e/assets-v1/6de03824-1cd0-4853-bce1-b561bc91b8b3/iphone-17-pro.png" },
   { id: "po16", model: "iPhone 17 Pro Max", price: 18000, condition: "pre-owned" },
 ];
