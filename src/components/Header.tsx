@@ -9,7 +9,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/27782463563", "_blank");
+    window.open("https://wa.me/27685814549", "_blank");
   };
 
   return (
@@ -26,9 +26,9 @@ const Header = () => {
         </div>
 
         <div className="flex items-center gap-2 md:gap-3">
-          <a href="tel:0782463563" className="flex items-center gap-1.5 text-muted-foreground hover:text-primary transition-colors px-2 py-1.5 rounded-lg hover:bg-secondary">
+          <a href="tel:0604980496" className="flex items-center gap-1.5 text-muted-foreground hover:text-primary transition-colors px-2 py-1.5 rounded-lg hover:bg-secondary">
             <Phone className="h-3.5 w-3.5" />
-            <span className="hidden md:inline text-sm font-medium">078 246 3563</span>
+            <span className="hidden md:inline text-sm font-medium">060 498 0496</span>
           </a>
           
           <Button 

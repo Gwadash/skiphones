@@ -115,7 +115,7 @@ const Auth = () => {
                   </div>
                   <div className="space-y-1.5">
                     <Label htmlFor="phone">Phone Number</Label>
-                    <Input id="phone" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="0782463563" required />
+                    <Input id="phone" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="0685814549" required />
                   </div>
                   <div className="space-y-1.5">
                     <Label htmlFor="address">Delivery Address</Label>

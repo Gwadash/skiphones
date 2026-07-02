@@ -36,12 +36,12 @@ const DeliveryInfo = () => {
             Ready to Order?
           </h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 relative z-10">
-            <a href="tel:0782463563" className="flex items-center gap-2 text-primary-foreground font-bold text-lg hover:opacity-80 transition-opacity">
+            <a href="tel:0604980496" className="flex items-center gap-2 text-primary-foreground font-bold text-lg hover:opacity-80 transition-opacity">
               <Phone className="h-5 w-5" />
-              078 246 3563
+              060 498 0496
             </a>
             <span className="hidden sm:block text-primary-foreground/40">|</span>
-            <a href="https://wa.me/27782463563" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground font-bold text-lg hover:opacity-80 transition-opacity">
+            <a href="https://wa.me/27685814549" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground font-bold text-lg hover:opacity-80 transition-opacity">
               <MessageCircle className="h-5 w-5" />
               WhatsApp Us
             </a>
