@@ -12,7 +12,7 @@ export const brandNewProducts: Product[] = [
   { id: "bn3", model: "iPhone 12", price: 6300, condition: "brand-new", image: "/__l5e/assets-v1/cb7b0175-d8ed-4779-8719-27f903ca03ae/iphone-12-black.png" },
   { id: "bn4", model: "iPhone 13", price: 7900, condition: "brand-new", image: "/lovable-uploads/ffbd6bb9-f1bb-49f2-88db-18145465fdd0.png" },
   { id: "bn5", model: "iPhone 13 Pro", price: 8600, condition: "brand-new", image: "/lovable-uploads/c3a1f61e-6476-46ff-b5b7-f0dc3cb55c1e.png" },
-  { id: "bn6", model: "iPhone 13 Pro Max", price: 9800, condition: "brand-new", image: "/__l5e/assets-v1/3a39dfd9-3644-4252-b176-dcc66b9c3083/iphone-16.png" },
+  { id: "bn6", model: "iPhone 13 Pro Max", price: 9800, condition: "brand-new", image: "/__l5e/assets-v1/9d63c9d4-b180-4d81-b9f6-e5adfbc0493c/iphone-13-pro-max.png" },
   { id: "bn7", model: "iPhone 14", price: 8700, condition: "brand-new", image: "/lovable-uploads/15778401-8141-4ff2-a54a-6b6073be207b.png" },
   { id: "bn8", model: "iPhone 14 Pro", price: 9300, condition: "brand-new", image: "/lovable-uploads/a10b91da-93d8-4ba5-b455-98e50878cc47.png" },
   { id: "bn9", model: "iPhone 14 Pro Max", price: 10600, condition: "brand-new", image: "/lovable-uploads/91426426-f886-473c-bdfd-4226031b0d81.png" },
