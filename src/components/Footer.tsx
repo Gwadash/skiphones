@@ -25,7 +25,7 @@ const Footer = () => {
               Your trusted source for brand new and pre-owned iPhones in South Africa. Quality Apple devices at competitive prices.
             </p>
             <Button 
-              onClick={() => window.open("https://wa.me/27782463563", "_blank")}
+              onClick={() => window.open("https://wa.me/27685814549", "_blank")}
               className="bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold shadow-md"
             >
               <MessageCircle className="h-4 w-4 mr-2" />
@@ -43,11 +43,11 @@ const Footer = () => {
                 </svg>
                 <span>info@skiphones.co.za</span>
               </a>
-              <a href="tel:0782463563" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="tel:0604980496" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>078 246 3563</span>
+                <span>060 498 0496</span>
               </a>
-              <a href="https://wa.me/27782463563" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="https://wa.me/27685814549" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <MessageCircle className="h-4 w-4 text-primary" />
                 <span>WhatsApp Available</span>
               </a>
@@ -57,7 +57,7 @@ const Footer = () => {
           <div>
             <h4 className="text-foreground font-bold mb-4 text-xs uppercase tracking-[0.2em]">Social Media</h4>
             <div className="space-y-3 text-muted-foreground text-sm">
-              <a href="https://www.tiktok.com/@alex.iphone.plug8?_r=1&_t=ZS-952OJFb1ZQL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
+              <a href="https://www.tiktok.com/@skiphonersa" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <svg className="h-5 w-5 text-primary" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.88-2.89 2.89 2.89 0 0 1 2.88-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V9.48a8.27 8.27 0 0 0 4.85 1.56V7.6a4.83 4.83 0 0 1-1.09-.91z"/></svg>
                 TikTok
               </a>
