@@ -20,7 +20,7 @@ export const brandNewProducts: Product[] = [
   { id: "bn11", model: "iPhone 15 Pro", price: 12400, condition: "brand-new", image: "/lovable-uploads/iPhone_15_Pro_Blue_Titanium_Pure_Back_iPhone_15_Pro_Blue_Tit-1.webp" },
   { id: "bn12", model: "iPhone 15 Pro Max", price: 13700, condition: "brand-new", image: "/lovable-uploads/bc14a16d-e0dd-426f-84b0-2f1a4fe4f0e4.png" },
   { id: "bn13", model: "iPhone 16", price: 14300, condition: "brand-new", image: "/lovable-uploads/iPhone_13_Pro_Graphite_8313c312-a1d1-4303-a9d1-c396f2fb5dc8-.webp" },
-  { id: "bn14", model: "iPhone 17", price: 15000, condition: "brand-new", image: "/lovable-uploads/cl_iphone_17_black_pdp_image_position_1__wwen-1.jpg" },
+  { id: "bn14", model: "iPhone 17", price: 15000, condition: "brand-new", image: "/__l5e/assets-v1/d85ed835-3874-4ef6-b804-6c5abe003a3e/iphone-17.png" },
   { id: "bn15", model: "iPhone 17 Pro", price: 18200, condition: "brand-new" },
   { id: "bn16", model: "iPhone 17 Pro Max", price: 23000, condition: "brand-new" },
 ];
@@ -39,7 +39,7 @@ export const preOwnedProducts: Product[] = [
   { id: "po11", model: "iPhone 15 Pro", price: 11000, condition: "pre-owned", image: "/lovable-uploads/iPhone_15_Pro_Blue_Titanium_Pure_Back_iPhone_15_Pro_Blue_Tit-1.webp" },
   { id: "po12", model: "iPhone 15 Pro Max", price: 12000, condition: "pre-owned", image: "/lovable-uploads/bc14a16d-e0dd-426f-84b0-2f1a4fe4f0e4.png" },
   { id: "po13", model: "iPhone 16", price: 12300, condition: "pre-owned", image: "/lovable-uploads/iPhone_13_Pro_Graphite_8313c312-a1d1-4303-a9d1-c396f2fb5dc8-.webp" },
-  { id: "po14", model: "iPhone 17", price: 14700, condition: "pre-owned", image: "/lovable-uploads/cl_iphone_17_black_pdp_image_position_1__wwen-1.jpg" },
+  { id: "po14", model: "iPhone 17", price: 14700, condition: "pre-owned", image: "/__l5e/assets-v1/d85ed835-3874-4ef6-b804-6c5abe003a3e/iphone-17.png" },
   { id: "po15", model: "iPhone 17 Pro", price: 15200, condition: "pre-owned" },
   { id: "po16", model: "iPhone 17 Pro Max", price: 18000, condition: "pre-owned" },
 ];
