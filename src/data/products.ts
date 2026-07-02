@@ -16,7 +16,7 @@ export const brandNewProducts: Product[] = [
   { id: "bn7", model: "iPhone 14", price: 8700, condition: "brand-new", image: "/lovable-uploads/15778401-8141-4ff2-a54a-6b6073be207b.png" },
   { id: "bn8", model: "iPhone 14 Pro", price: 9300, condition: "brand-new", image: "/lovable-uploads/a10b91da-93d8-4ba5-b455-98e50878cc47.png" },
   { id: "bn9", model: "iPhone 14 Pro Max", price: 10600, condition: "brand-new", image: "/lovable-uploads/91426426-f886-473c-bdfd-4226031b0d81.png" },
-  { id: "bn10", model: "iPhone 15", price: 11000, condition: "brand-new", image: "/__l5e/assets-v1/cb7b0175-d8ed-4779-8719-27f903ca03ae/iphone-12-black.png" },
+  { id: "bn10", model: "iPhone 15", price: 11000, condition: "brand-new", image: "/__l5e/assets-v1/54999de3-eb6a-4692-b0ab-07c5dc090005/iphone-15.png" },
   { id: "bn11", model: "iPhone 15 Pro", price: 12400, condition: "brand-new", image: "/lovable-uploads/iPhone_15_Pro_Blue_Titanium_Pure_Back_iPhone_15_Pro_Blue_Tit-1.webp" },
   { id: "bn12", model: "iPhone 15 Pro Max", price: 13700, condition: "brand-new", image: "/lovable-uploads/bc14a16d-e0dd-426f-84b0-2f1a4fe4f0e4.png" },
   { id: "bn13", model: "iPhone 16", price: 14300, condition: "brand-new", image: "/__l5e/assets-v1/3a39dfd9-3644-4252-b176-dcc66b9c3083/iphone-16.png" },
