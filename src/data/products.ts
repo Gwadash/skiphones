@@ -9,7 +9,7 @@ export interface Product {
 export const brandNewProducts: Product[] = [
   { id: "bn1", model: "iPhone XR", price: 3000, condition: "brand-new", image: "/lovable-uploads/c16f4f49-c799-4c19-acdb-5e25d8f042f8.png" },
   { id: "bn2", model: "iPhone 11", price: 4200, condition: "brand-new", image: "/lovable-uploads/7c5544b8-af91-4224-9d62-46067b2c070f.png" },
-  { id: "bn3", model: "iPhone 12", price: 6300, condition: "brand-new", image: "/__l5e/assets-v1/cb7b0175-d8ed-4779-8719-27f903ca03ae/iphone-12-black.png" },
+  { id: "bn3", model: "iPhone 12", price: 6300, condition: "brand-new", image: "/__l5e/assets-v1/039b5127-c985-40cf-93ba-a00b9d54d696/iphone-12-white.jpg" },
   { id: "bn4", model: "iPhone 13", price: 7900, condition: "brand-new", image: "/lovable-uploads/ffbd6bb9-f1bb-49f2-88db-18145465fdd0.png" },
   { id: "bn5", model: "iPhone 13 Pro", price: 8600, condition: "brand-new", image: "/lovable-uploads/c3a1f61e-6476-46ff-b5b7-f0dc3cb55c1e.png" },
   { id: "bn6", model: "iPhone 13 Pro Max", price: 9800, condition: "brand-new", image: "/__l5e/assets-v1/9d63c9d4-b180-4d81-b9f6-e5adfbc0493c/iphone-13-pro-max.png" },
@@ -28,7 +28,7 @@ export const brandNewProducts: Product[] = [
 export const preOwnedProducts: Product[] = [
   { id: "po1", model: "iPhone XR", price: 2200, condition: "pre-owned", image: "/lovable-uploads/c16f4f49-c799-4c19-acdb-5e25d8f042f8.png" },
   { id: "po2", model: "iPhone 11", price: 3200, condition: "pre-owned", image: "/lovable-uploads/7c5544b8-af91-4224-9d62-46067b2c070f.png" },
-  { id: "po3", model: "iPhone 12", price: 5600, condition: "pre-owned", image: "/__l5e/assets-v1/cb7b0175-d8ed-4779-8719-27f903ca03ae/iphone-12-black.png" },
+  { id: "po3", model: "iPhone 12", price: 5600, condition: "pre-owned", image: "/__l5e/assets-v1/039b5127-c985-40cf-93ba-a00b9d54d696/iphone-12-white.jpg" },
   { id: "po4", model: "iPhone 13", price: 6800, condition: "pre-owned", image: "/lovable-uploads/ffbd6bb9-f1bb-49f2-88db-18145465fdd0.png" },
   { id: "po5", model: "iPhone 13 Pro", price: 7900, condition: "pre-owned", image: "/lovable-uploads/c3a1f61e-6476-46ff-b5b7-f0dc3cb55c1e.png" },
   { id: "po6", model: "iPhone 13 Pro Max", price: 8950, condition: "pre-owned", image: "/__l5e/assets-v1/9d63c9d4-b180-4d81-b9f6-e5adfbc0493c/iphone-13-pro-max.png" },
