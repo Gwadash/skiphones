@@ -49,7 +49,7 @@ const Footer = () => {
               </a>
               <a href="https://wa.me/27604980496" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-primary transition-colors">
                 <MessageCircle className="h-4 w-4 text-primary" />
-                <span>WhatsApp Available</span>
+                <span>060 498 0496</span>
               </a>
             </div>
           </div>
